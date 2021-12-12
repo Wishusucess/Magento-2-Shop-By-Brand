@@ -3,21 +3,29 @@ Wishusucess Shop by Brand is a Free Module that offers to create brand page and 
 
 <br/>
 <h2> Installation Instructions of Wishusucess Shop By Brand</h2>
+
 Download this module and then go to your magento 2 project root dir then create following directory structure :<br/>
+
 <strong>/YourProjectInstallationDirectory/app/code/Wishusucess/ShopByBrand</strong>
 
 <h3> Enable Wishusucess/ShopByBrand Module</h3>
+
 You can follow following steps:
 
 <ul>
 <li>
 <strong>Enable the Module</strong>
-<pre>bin/magento module:enable Wishusucess_ShopByBrand</pre></li>
+
+	<pre>bin/magento module:enable Wishusucess_ShopByBrand</pre></li>
 <li>
-<strong>Run Upgrade Setup</strong>
-<pre>bin/magento setup:upgrade</pre></li>
+
+	<strong>Run Upgrade Setup</strong>
+
+	<pre>bin/magento setup:upgrade</pre></li>
 <li>
-<strong>Re-Compile (in-case you have compilation enabled)</strong>
+
+	<strong>Re-Compile (in-case you have compilation enabled)</strong>
+
 	<pre>bin/magento setup:di:compile</pre>
 </li>
 </ul>
